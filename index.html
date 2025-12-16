@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Company – Card Scanner</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#000000">
+</head>
+<body>
+  <img src="logo.png" width="120">
+  <h2>Business Card Scanner</h2>
+
+  <input type="file" accept="image/*" capture="camera">
+  <button onclick="exportCSV()">Export CSV</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
